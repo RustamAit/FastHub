@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navFeeds"
+    >
+    <fragment
+        android:id="@+id/navFeeds"
+        android:name="kz.example.android.fasthub.ui.Feed.FeedsFragment"
+        android:label="Feeds"
+        tools:layout="@layout/fragment_feeds" >
+        <action
+            android:id="@+id/action_feedsFragment_to_issueHostFragment"
+            app:destination="@id/navIssues" />
+    </fragment>
+    <fragment
+        android:id="@+id/navIssues"
+        android:name="kz.example.android.fasthub.ui.issues.IssueHostFragment"
+        android:label="Issues" >
+        <action
+            android:id="@+id/action_issueHostFragment_to_pullRequestHostFragment"
+            app:destination="@id/navPullRequests" />
+    </fragment>
+    <fragment
+        android:id="@+id/navPullRequests"
+        android:name="kz.example.android.fasthub.ui.pullRequests.PullRequestHostFragment"
+        android:label="PullRequests" />
+
+</navigation>

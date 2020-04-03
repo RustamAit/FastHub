@@ -38,13 +38,7 @@ class FeedsFragment : Fragment(R.layout.fragment_feeds) {
             if(it.isEmpty()){
                 showEmptyState()
             }else{
-
-                for(i in 0..100){
-                    feedList.add(
-                        it[0]
-                    )
-                }
-                showList(feedList)
+                showList(it)
             }
         })
         swipeRefresh.setOnRefreshListener {
