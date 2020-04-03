@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/pull_requests_navigation"
+    app:startDestination="@id/pullRequestHostFragment">
+
+    <fragment
+        android:id="@+id/pullRequestHostFragment"
+        android:name="kz.example.android.fasthub.ui.pullRequests.PullRequestHostFragment"
+        android:label="PullRequestHostFragment" />
+</navigation>

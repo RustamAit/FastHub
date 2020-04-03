@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="44dp"/>
+            <size android:height="48dp"
+                android:width="48dp"/>
+            <solid android:color="#0060fc" />
+        </shape>
+    </item>
+
+    <item android:gravity="center"
+        android:drawable="@drawable/ic_send_white_24dp"
+        >
+    </item>
+</layer-list>

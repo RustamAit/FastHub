@@ -1,0 +1,4 @@
+# Referenced at C:\Users\MI\Desktop\Projects\flutter\mask_app\FastHub\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:15
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\MI\Desktop\Projects\flutter\mask_app\FastHub\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:15
+-keep class kz.example.android.fasthub.App { <init>(); }
