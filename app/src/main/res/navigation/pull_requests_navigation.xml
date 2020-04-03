@@ -6,5 +6,5 @@
     <fragment
         android:id="@+id/pullRequestHostFragment"
         android:name="kz.example.android.fasthub.ui.pullRequests.PullRequestHostFragment"
-        android:label="PullRequestHostFragment" />
+        android:label="PullRequests" />
 </navigation>

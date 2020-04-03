@@ -8,6 +8,6 @@
     <fragment
         android:id="@+id/feedsFragment"
         android:name="kz.example.android.fasthub.ui.Feed.FeedsFragment"
-        android:label="fragment_feeds"
+        android:label="Feeds"
         tools:layout="@layout/fragment_feeds" />
 </navigation>

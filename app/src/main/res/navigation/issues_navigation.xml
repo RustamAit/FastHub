@@ -7,5 +7,5 @@
     <fragment
         android:id="@+id/issueHostFragment"
         android:name="kz.example.android.fasthub.ui.issues.IssueHostFragment"
-        android:label="IssueHostFragment" />
+        android:label="Issues" />
 </navigation>
